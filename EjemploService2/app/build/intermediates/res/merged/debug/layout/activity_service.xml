@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ServiceActivity"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Comenzar Servicio" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Detener Servicio" />
+
+</LinearLayout><!-- From: file:/Volumes/Macintosh%20HD/Dropbox/workspace/Android/Tutoriales/EjemploService2/app/src/main/res/layout/activity_service.xml -->
