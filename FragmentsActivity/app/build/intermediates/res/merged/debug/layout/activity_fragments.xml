@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".FragmentsActivity" >
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="sekth.droid.fragments.GreenFragment"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="sekth.droid.fragments.YellowFragment"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+
+</LinearLayout><!-- From: file:/Volumes/Macintosh%20HD/Dropbox/workspace/Android/Tutoriales/FragmentsActivity/app/src/main/res/layout/activity_fragments.xml -->
