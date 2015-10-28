@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejemplo SQLite</string>
+    <string name="title_activity_nueva_nota">Agregar Nota</string>
+    <string name="delete_note">Borrar Nota</string>
+    <string name="do_you_want_to_delete">¿Desea borrar esta nota?</string>
+
+</resources>
