@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".ComunicacionFragments" >
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="sekth.droid.comunicacionfragments.GreenFragment"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_green" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="sekth.droid.comunicacionfragments.YellowFragment"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_yellow" />
+
+</LinearLayout><!-- From: file:/Volumes/Macintosh%20HD/Dropbox/workspace/Android/Tutoriales/ComunicacionFragments/app/src/main/res/layout/activity_comunicacion_fragments.xml -->
