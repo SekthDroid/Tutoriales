@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejemplo ListFragment</string>
+    <string name="you_clicked_in">Ha pulsado en %1$s</string>
+
+</resources>

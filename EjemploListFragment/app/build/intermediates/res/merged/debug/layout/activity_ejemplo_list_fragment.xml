@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".EjemploListFragment" >
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="sekth.droid.Fragment.OSFragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        tools:layout="@layout/os_fragment" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="sekth.droid.Fragment.OSFragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        tools:layout="@layout/os_fragment" />
+
+</LinearLayout><!-- From: file:/Volumes/Macintosh%20HD/Dropbox/workspace/Android/Tutoriales/EjemploListFragment/app/src/main/res/layout/activity_ejemplo_list_fragment.xml -->
