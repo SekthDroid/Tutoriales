@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejemplo DialogFragment</string>
+    <string name="are_you_sure">¿Estas seguro de querer hacer esto?</string>
+
+</resources>
