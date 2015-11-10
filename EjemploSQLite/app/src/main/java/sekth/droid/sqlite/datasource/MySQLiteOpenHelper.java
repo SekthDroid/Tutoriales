@@ -24,7 +24,7 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 	
 	public static MySQLiteOpenHelper getInstance(Context context){
 		if (mOpenHelper == null){
-			mOpenHelper = new MySQLiteOpenHelper(context.getApplicationContext());
+			mOpenHelper = new MySQLiteOpenHelper(context);
 		}
 		
 		return mOpenHelper;
@@ -44,5 +44,4 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 		db.execSQL("delete table if exists " + TablaNotas.TABLA_NOTAS);
 		onCreate(db);
 	}
-
 }

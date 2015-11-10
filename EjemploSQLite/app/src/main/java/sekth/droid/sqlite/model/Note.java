@@ -12,7 +12,7 @@ public class Note {
 		this.id = id;
 	}
 
-	public String gettexto() {
+	public String getContent() {
 		return texto;
 	}
 
